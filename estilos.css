@@ -1,0 +1,74 @@
+
+:root{
+    --colorNaranjo : rgba(224, 90, 28,.6);
+    --colorAzul: #3C5BA6;
+    --colorAmarillo: #FFCB05;
+}
+@font-face {
+    font-family: pokemon;
+    src: url(fonts/Pokemon\ Hollow.ttf);
+}
+
+body{
+    margin: 0;
+    background-image: url('https://www.pixel4k.com/wp-content/uploads/2019/05/detective-pikachu-4k_1558220198.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    
+    
+}
+.logo{
+    position: relative;
+    width: 14rem;
+}
+.pikachu{
+    
+    text-align: left;
+}
+
+.logo_pokemon{
+    float: right;
+}
+.title{
+    color: var(--colorAmarillo);
+    font-family: 'pokemon',Arial, Helvetica, sans-serif;
+    font-size: 6rem;
+    text-shadow: -4px -2px 0px var(--colorAzul);
+}
+
+.container{
+    text-align: center;
+    margin-top: -200px;
+}
+
+.formulario_pokemon{
+    margin-top: -7rem;
+    margin-bottom: 1.5rem;
+}
+.formulario_pokemon label{
+    font-size: 2rem;
+}
+
+.container_pokemon{
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    height: 494px;
+    background-color: var(--colorNaranjo);
+    border-radius: 1rem;
+    overflow-y: auto;
+    max-height: 494px;
+}
+
+.target_pokemon{
+    display: inline-block;
+    width: 22%;
+    min-width: 250px;
+    height: 400px;
+    margin: 30px;
+    background-color: #e2dede;
+    border-radius: 1rem;
+
+    box-shadow: 4px 4px 10px ;
+}
